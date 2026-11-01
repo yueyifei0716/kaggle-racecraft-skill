@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kaggle Racecraft"
+  short_description: "全流程 Kaggle 托管：比赛研究、模型迭代、可信验证、自动提交与最终选择"
+  default_prompt: "使用 $kaggle 检查比赛当前状态，选择下一步并在授权范围内完成验证。"

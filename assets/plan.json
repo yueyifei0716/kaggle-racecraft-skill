@@ -1,0 +1,13 @@
+{
+  "competition": null,
+  "metric": {"name": null, "direction": null},
+  "deadline": null,
+  "reserve_hours": null,
+  "public_units": null,
+  "started_at": null,
+  "late_join_days": 7,
+  "goal": null,
+  "route": null,
+  "budget": {"gpu_hours": null, "money": null, "submissions": null},
+  "gates": {"strategy": null, "test_distribution": null, "validation": null, "midpoint": null, "finals": null}
+}

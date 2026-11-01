@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "user_confirmed": false,
+  "status": "active",
+  "scope": {
+    "competition": "example-competition",
+    "url": "https://www.kaggle.com/competitions/example-competition"
+  },
+  "expires_at": "2026-12-01T00:00:00+08:00",
+  "allowed_operations": [
+    "read", "worker", "join", "download", "train", "validate", "upload", "submit", "select_final"
+  ],
+  "budgets": {
+    "money": 10,
+    "gpu_seconds": 3600,
+    "wall_seconds": 7200,
+    "submissions": 5,
+    "uploads": 5,
+    "train_runs": 10
+  },
+  "max_daily_submissions": 2,
+  "rules_acceptance": {
+    "mode": "delegated",
+    "allowed": true,
+    "constraints": {
+      "no_payment": true,
+      "no_publication": true,
+      "no_personal_disclosure": true
+    }
+  },
+  "privacy": {
+    "private_only": true,
+    "no_publication": true,
+    "no_personal_disclosure": true
+  }
+}

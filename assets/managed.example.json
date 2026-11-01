@@ -1,0 +1,18 @@
+{
+  "root": "/absolute/path/to/competition-workspace",
+  "competition": "example-competition",
+  "mandate_file": "/absolute/path/to/confirmed-mandate.json",
+  "model": "gpt-6.1-sol",
+  "worker_timeout_seconds": 300,
+  "training_max_seconds": 600,
+  "validator_timeout_seconds": 120,
+  "worker_max_costs": {"money": 0.5, "gpu_seconds": 0, "wall_seconds": 300},
+  "validator_max_costs": {"money": 0, "gpu_seconds": 0, "wall_seconds": 120},
+  "command_max_costs": {"money": 1, "gpu_seconds": 600, "wall_seconds": 600},
+  "interval_seconds": 60,
+  "intel_interval_seconds": 3600,
+  "freeze_hours": 24,
+  "max_no_gain": 3,
+  "max_errors": 3,
+  "gate": {"resamples": 2000, "min_folds": 3, "min_groups": 2}
+}

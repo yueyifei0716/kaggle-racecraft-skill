@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+!.env.example
+.kaggle/
+competition-workspace/
+platform-receipts/
+*.log
